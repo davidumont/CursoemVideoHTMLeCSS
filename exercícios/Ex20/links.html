@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links</title>
+    <style>
+      /* 
+      SELETORES PERSONALIZADOS
+# = id (em CSS)
+. = class (em CSS)
+: = pseudo-class (Em CSS)
+:: = pseudo-element (Em CSS)
+> = clildren (em CSS)
+*/
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        background: linear-gradient(to left,#007566, #589A8D, #8FC1B5);
+      }
+      a {
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:visited {
+        color: greenyellow;
+        
+      }
+      a:hover {
+        color: black;
+        text-decoration: underline;
+      }
+      a:active {
+        color: yellow;
+      }
+      a::after {
+        content: " [link]";
+        text-decoration: none;
+        font-weight: normal;
+        color: darkgray;
+      }
+      .container-a{
+        background-color: #146551;
+        border: 1px solid black;
+        display: inline-block;
+        border-radius: 5px;
+                
+      }
+      .container-b{
+        background-color: #146551;
+        
+        display: inline-block;
+        border-radius: 5px;
+      }
+      .container-c{
+        background-color: #146551;
+        
+        display: inline-block;
+        border-radius: 5px;
+        
+      }
+      div{
+        text-align: center;
+      }
+
+  </style>
+  </head>
+  <body>
+    <h1>Personalizando Links</h1>
+<span class="container-a"><a href="https://gustavoguanabara.github.io" target="_blank"
+      >Repositório Github</a </span> <br>
+   
+<span class="container-b"><a href="https://www.youtube.com/cursoemvideo" target="_blank"
+  >Canal do Youtube</a </span> <br>
+ 
+<span class="container-c"><a href="https://www.cursoemvideo.com/" target="_blank"
+      >Site do Curso em Vídeo</a</span>
+
+  </body>
+</html>

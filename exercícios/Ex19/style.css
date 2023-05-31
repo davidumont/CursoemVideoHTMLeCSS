@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* Em HTML é "id" = em CSS é "#" (jogo da velha) 
+Em HTML é "class" = em CSS é "." (ponto final)
+*/
+
+body {
+  background: linear-gradient(to left, #0caba8, #d7e0e0);
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 5px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+}
+
+h1#principal {
+  text-align: center;
+  background-color: #45c4b0;
+  color: #012030;
+}
+
+h2 {
+  color: #012030;
+}
+
+.basico {
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.intermediario {
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.avancado {
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.destaque {
+  background: linear-gradient(to right, #0caba8, #d7e0e0);
+  border-radius: 5px;
+}
+
+.rubrica {
+  font-size: larger;
+  background-color: white;
+}
