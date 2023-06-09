@@ -4,12 +4,29 @@
 body {
   background-image: url("imagens/Wallpaper01.jpg");
   font-family: "Nova Cut", cursive;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-h1 {
+a {
+  text-decoration: none;
+  color: #594022;
+  background-color: #a65d32cc;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.titulo {
   background-color: rgba(191, 187, 187, 0.355);
   text-align: center;
   border-radius: 5px;
   width: 550px;
   margin: 10px 10px 10px 3px;
+}
+
+main > p {
+  background-color: rgb(255, 255, 255);
+  color: #a65d32;
+  text-align: center;
 }
