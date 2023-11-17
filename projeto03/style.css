@@ -12,7 +12,7 @@ body {
 a {
   text-decoration: none;
   color: #594022;
-  background-color: #a65d32cc;
+  background-color: rgba(0, 0, 0, 0.328);
   border-radius: 5px;
   margin: 5px;
 }
